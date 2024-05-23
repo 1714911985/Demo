@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="数据存储"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_file_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="File存储" />
+
+        <Button
+            android:id="@+id/btn_shared_preference"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SharedPreferences存储" />
+
+        <Button
+            android:id="@+id/btn_sqlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQLite数据存储" />
+
+        <Button
+            android:id="@+id/btn_mmkv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MMKV数据存储" />
+
+        <Button
+            android:id="@+id/btn_datastore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DataStore数据存储" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Service"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_what_is_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service是什么" />
+
+        <Button
+            android:id="@+id/btn_android_multithreaded_programming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android多线程编程" />
+
+        <Button
+            android:id="@+id/btn_service_start_and_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service开启和停止" />
+        <Button
+            android:id="@+id/btn_service_life"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service生命周期" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="多媒体"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="通知" />
+
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="摄像头&amp;相册" />
+
+        <Button
+            android:id="@+id/btn_media_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放音频" />
+
+        <Button
+            android:id="@+id/btn_video_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="播放视频" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

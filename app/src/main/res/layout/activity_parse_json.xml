@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".main.fourth.networktechnology.ParseJsonActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_parse_json"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grey"
+        app:title="解析JSON格式数据" />
+
+    <Button
+        android:id="@+id/btn_json_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用JSONObject解析Json" />
+
+    <Button
+        android:id="@+id/btn_gson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Gson解析Json" />
+</LinearLayout>

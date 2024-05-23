@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="网络技术"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_web_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WebView使用" />
+
+        <Button
+            android:id="@+id/btn_use_http"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="使用HTTP协议访问网络" />
+
+        <Button
+            android:id="@+id/btn_parse_xml"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="解析XML格式数据" />
+
+        <Button
+            android:id="@+id/btn_parse_json"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="解析JSON格式数据" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Android通信"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_thread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="线程间通信" />
+
+        <Button
+            android:id="@+id/btn_process"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="进程间通信" />
+
+        <Button
+            android:id="@+id/btn_three_way"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="三方通信" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

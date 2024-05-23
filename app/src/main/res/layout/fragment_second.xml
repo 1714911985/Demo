@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Android应用资源"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_application_resources"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Android应用资源" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="动画"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_animation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="动画" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fragment"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_what_is_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="什么是Fragment？" />
+
+            <Button
+                android:id="@+id/btn_fragment_usage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragment使用方式" />
+
+            <Button
+                android:id="@+id/btn_fragment_life"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragment生命周期" />
+
+            <Button
+                android:id="@+id/btn_communicate_with_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="与Activity之间通信" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="BroadcastReceiver"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btn_broadcast_receiver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BroadcastReceiver是什么" />
+
+            <Button
+                android:id="@+id/btn_create_broadcast_receiver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BroadcastReceiver的创建|有序无序｜优先级" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

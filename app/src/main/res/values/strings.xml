@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="first">First</string>
+    <string name="second">Second</string>
+    <string name="third">Third</string>
+    <string name="fourth">Fourth</string>
+    <string name="first_set_of_components">first set of components</string>
+    <string name="this_is_textview">This is TextView</string>
+    <string name="this_is_button">This is Button</string>
+    <string name="this_is_edittext">This is EditText</string>
+    <string name="exit">Exit</string>
+    <string name="this_is_imageview">This is ImageView</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="second_set_of_components">second set of components</string>
+    <string name="third_set_of_components">third set of components</string>
+    <string name="fourth_set_of_components">fourth set of components</string>
+    <string name="fifth_set_of_components">fifth set of components</string>
+    <string name="nav_header_title">Eccentric</string>
+    <string name="nav_header_subtitle">1714911985@qq.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

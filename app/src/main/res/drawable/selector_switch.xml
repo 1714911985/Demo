@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#00FF00"/> <!-- 选中时的颜色 -->
+            <corners android:radius="30dp"/>
+            <!-- 其他属性，如角度、边框等 -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF"/> <!-- 未选中时的颜色 -->
+            <!-- 其他属性，如角度、边框等 -->
+            <corners android:radius="30dp"/>
+        </shape>
+    </item>
+</selector>

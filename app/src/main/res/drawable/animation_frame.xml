@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/horse_1"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_2"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_3"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_4"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_5"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_6"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_7"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_8"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_9"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_10"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_11"
+        android:duration="100" />
+    <item
+        android:drawable="@drawable/horse_12"
+        android:duration="100" />
+</animation-list>

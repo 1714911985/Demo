@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.first.activity.DataProblemActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_data_problem"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grey"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="传递值的临界值｜超出限制报出异常｜优化方法" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tb_data_problem">
+
+        <TextView
+            android:id="@+id/tv_data_problem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="临界值：大约1MB\n超出限制报出的异常：\nTransactionTooLargeException
+                           优化：\n1.使用静态变量或单例模式\n2.将数据保存到本地存储(数据库或文件) "
+            android:textSize="25sp" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

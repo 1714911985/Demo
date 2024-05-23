@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CirclePgBar">
+        <attr name="bottomColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImage">
+        <attr name="bgcolor" format="color" />
+        <attr name="size" format="float"/>
+        <attr name="text" format="string"/>
+        <attr name="bgimg" format="reference"/>
+    </declare-styleable>
+</resources>

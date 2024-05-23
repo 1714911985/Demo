@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_launch_mode"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grey"
+        app:title="Activity启动模式" />
+
+    <Button
+        android:id="@+id/btn_start_standard_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动standard模式Activity"/>
+    <Button
+        android:id="@+id/btn_start_singleTop_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动singleTop模式Activity"/>
+    <Button
+        android:id="@+id/btn_start_singleTask_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动singleTask模式Activity"/>
+    <Button
+        android:id="@+id/btn_start_singleInstance_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动singleInstance模式Activity"/>
+</LinearLayout>
