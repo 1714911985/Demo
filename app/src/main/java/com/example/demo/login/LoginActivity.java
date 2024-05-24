@@ -14,14 +14,18 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.view.MenuProvider;
+import androidx.lifecycle.Lifecycle;
+import androidx.lifecycle.LifecycleOwner;
 
 import com.example.demo.main.MainActivity;
 import com.example.demo.utils.MySQLiteHelper;
 import com.example.demo.R;
 
-public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
+public class LoginActivity extends AppCompatActivity implements View.OnClickListener{
     private final static int REQUEST_CODE = 1;
     private Button btnRegist;
     private Button btnLogin;
@@ -155,4 +159,5 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             Toast.makeText(this, responseData, Toast.LENGTH_SHORT).show();
         }
     }
+
 }

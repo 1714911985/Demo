@@ -1,6 +1,10 @@
 package com.example.anotherprocess;
 
 import android.annotation.SuppressLint;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -29,6 +33,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         initView();
         initData();
+
+        final IntentFilter filter = new IntentFilter();
+        filter.addAction("广播A");
+        BroadcastReceiver mAReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(final Context context, final Intent intent) {
+                String action = intent.getAction();
+                String msg = intent.getStringExtra("name");
+                Log.d("AnotherMainActivity", "应用B收到：" + action + ",name:" + msg);
+            }
+        };
+        registerReceiver(mAReceiver, filter);
     }
 
     private void initData() {

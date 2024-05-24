@@ -17,6 +17,7 @@ import com.example.demo.main.fourth.networktechnology.AccessTheNetworkUsingHttpP
 import com.example.demo.main.fourth.networktechnology.ParseJsonActivity
 import com.example.demo.main.fourth.networktechnology.ParseXmlActivity
 import com.example.demo.main.fourth.networktechnology.WebViewActivity
+import com.example.demo.main.fourth.screenadaptation.ScreenAdaptationActivity
 
 class FourthFragment : Fragment(), View.OnClickListener {
     private var mListener: OnFragmentInteractionListener? = null
@@ -53,6 +54,7 @@ class FourthFragment : Fragment(), View.OnClickListener {
         registerButton(R.id.btn_thread, view)
         registerButton(R.id.btn_process, view)
         registerButton(R.id.btn_three_way, view)
+        registerButton(R.id.btn_screen_adaptation, view)
     }
 
     override fun onClick(v: View?) {
@@ -88,6 +90,10 @@ class FourthFragment : Fragment(), View.OnClickListener {
 
             R.id.btn_three_way -> {
                 startActivity(Intent(context, ThreeWayCommunicationActivity::class.java))
+            }
+
+            R.id.btn_screen_adaptation -> {
+                startActivity(Intent(context, ScreenAdaptationActivity::class.java))
             }
         }
     }
