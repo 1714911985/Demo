@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btnAddData;
     private Button btnUpdateData;
     private Button btnDeleteData;
-    private final static String authority = "com.example.demo.provider";
+    private final static String authority = "com.example.demo.main.fourth.androidcommunication.utils.MyContentProvider";
 
 
     @Override
@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void queryByContentProvider() {
 //        Uri uri = Uri.parse("content://" + authority + "/user");
-        Uri uri = Uri.parse("content://com.example.demo.provider/user");
-
+        Uri uri = Uri.parse("content://"+authority+"/user");
+        grantUriPermission(authority, uri, Intent.FLAG_GRANT_READ_URI_PERMISSION);
         Cursor cursor = getContentResolver().query(uri, null, null, null, null, null);
 
         if (cursor != null) {

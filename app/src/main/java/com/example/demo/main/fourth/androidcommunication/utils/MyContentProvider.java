@@ -14,11 +14,11 @@ public class MyContentProvider extends ContentProvider {
     private MySQLiteHelper dbHelper;
     private final static int userDir = 0;
     private final static int userItem = 1;
-    private UriMatcher uriMatcher;
-    private final static String authority = "com.example.demo.provider";
+    private static UriMatcher uriMatcher;
+    private final static String authority = "com.example.demo.main.fourth.androidcommunication.utils.MyContentProvider";
 
 
-    public MyContentProvider() {
+    static {
         uriMatcher = new UriMatcher(UriMatcher.NO_MATCH);
         uriMatcher.addURI(authority, "user", userDir);
         uriMatcher.addURI(authority, "user/#", userItem);
